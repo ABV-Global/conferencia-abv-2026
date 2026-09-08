@@ -30,3 +30,7 @@
 @media(max-width:760px){.wrap{width:calc(100% - 32px);max-width:100%}.header{padding-block:12px}.brand-mark{width:52px;height:52px}.brand strong{font-size:1.05rem}.brand-city{font-size:.875rem}.hero{padding-block:26px 30px}.hero-copy,.about,.registration-inner{grid-template-columns:minmax(0,1fr);gap:24px}.hero h1{font-size:clamp(2.6rem,9vw,4rem)}.hero .button{width:auto}.directions-hero{margin-left:14px}.detail-grid{grid-template-columns:minmax(0,1fr)}.verse,.registration{padding-block:30px}.about{padding-block:30px}.seed{padding:22px}.footer{gap:22px}.footer .brand{width:100%}}
 @media(max-width:380px){.hero .button{width:100%}.directions-hero{margin-left:0}.brand strong{font-size:.95rem}.brand{gap:8px}}
 
+
+/* Decorative SVG arrows avoid platform-dependent emoji rendering. */
+.action-icon{display:inline-block;width:1.125rem;height:1.125rem;flex:0 0 1.125rem;vertical-align:middle;color:inherit;pointer-events:none}
+
