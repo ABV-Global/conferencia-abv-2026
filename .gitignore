@@ -1,0 +1,6 @@
+dist/
+assets/fonts/old-london-source/
+assets/fonts/old-london.zip
+node_modules/
+.env*
+*.log
