@@ -9,7 +9,7 @@ if ((html.match(/<h1\b/g) || []).length !== 1) throw new Error('A página deve t
 if (html.includes('lugar reservado')) throw new Error('Não publicar um formulário sem registo real.');
 for (const match of html.matchAll(/(?:src|href)="([^"#]+)"/g)) {
   const path = match[1];
-  if (!/^(https?:|mailto:)/.test(path)) await stat(resolve(root, path));
+  if (!/^(https?:|mailto:)/.test(path)) await stat(resolve(root, path.split('?' )[0]));
 }
 const ids = new Set([...html.matchAll(/\bid="([^"]+)"/g)].map(m => m[1]));
 for (const [, id] of html.matchAll(/href="#([^"]+)"/g)) if (!ids.has(id)) throw new Error(`Âncora inexistente: ${id}`);
