@@ -3,7 +3,7 @@ import { resolve, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
 const output = resolve(root, 'dist');
-const files = ['index.html', 'styles.css', 'registration.mjs', 'assets/hero-conferencia.png', 'assets/logo-abv.png', 'assets/fonts/old-london.ttf', 'assets/fonts/roboto-regular.ttf', 'assets/fonts/roboto-bold.ttf', 'assets/fonts/roboto-italic.ttf', 'assets/fonts/roboto-bold-italic.ttf', 'assets/fonts/Roboto-OFL.txt', 'assets/fonts/SOURCES.md'];
+const files = ['index.html', 'styles.css', 'registration.mjs', 'assets/hero-conferencia.png', 'assets/logo-broto-branco.png', 'assets/fonts/old-london.ttf', 'assets/fonts/roboto-regular.ttf', 'assets/fonts/roboto-bold.ttf', 'assets/fonts/roboto-italic.ttf', 'assets/fonts/roboto-bold-italic.ttf', 'assets/fonts/Roboto-OFL.txt', 'assets/fonts/SOURCES.md'];
 const html = await readFile(resolve(root, 'index.html'), 'utf8');
 if ((html.match(/<h1\b/g) || []).length !== 1) throw new Error('A página deve ter um único título h1.');
 if (html.includes('lugar reservado')) throw new Error('Não publicar um formulário sem registo real.');
