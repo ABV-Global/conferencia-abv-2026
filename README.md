@@ -8,11 +8,11 @@ Da confissão à obediência · A cultura da unidade.
 
 https://abv-global.github.io/conferencia-abv-2026/
 
-Página estática, sem dependências de instalação. O cartaz e o emblema foram extraídos sem alteração do HTML fornecido pela igreja. A interface usa a paleta oficial, Old London e Roboto alojadas localmente. Rigid Square aguarda o ficheiro webfont licenciado; a referência usa Roboto como alternativa explícita. As cores já incorporadas no cartaz original foram preservadas.
+Página estática, sem dependências de instalação. Usa os ficheiros fornecidos LOGO 2.png e Arte Hero site.png, sem alterar as imagens. A interface usa a paleta oficial, Old London e Roboto alojadas localmente. Rigid Square aguarda o ficheiro webfont licenciado; a referência usa Roboto como alternativa explícita.
 
 ## Inscrições
 
-O botão abre o aplicativo de e-mail do visitante com destinatário `abundantevidalondon@gmail.com`, assunto da conferência e mensagem pronta para completar com o nome. O visitante deve enviar a mensagem; a equipa da igreja recebe e confirma a inscrição por e-mail. A página explica estas etapas e mostra o endereço para envio manual ou dúvidas. Funciona sem JavaScript. Não existe envio automático no servidor, recolha de dados na página ou confirmação fictícia de vaga. Não guardar dados pessoais neste repositório.
+O formulário solicita nome completo e telefone/WhatsApp e prepara localmente a mensagem para `abundantevidalondon@gmail.com`. O visitante deve enviá-la no aplicativo de e-mail; a equipa da igreja recebe e confirma a inscrição. A contribuição é de £5 por participante para os custos da conferência; o e-mail pede orientações de pagamento. A página não processa pagamentos nem afirma que uma vaga foi confirmada. Sem JavaScript, o endereço de e-mail continua disponível para inscrição manual. Os dados não são guardados no navegador nem enviados ao GitHub. Não guardar dados pessoais neste repositório.
 
 ## Desenvolvimento e publicação
 
