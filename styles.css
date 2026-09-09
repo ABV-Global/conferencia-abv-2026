@@ -41,3 +41,7 @@
 @media(max-width:760px){.wrap{width:calc(100% - 32px)}.header{min-height:80px;flex-wrap:wrap;gap:12px}.header .brand{flex:1 1 200px}.header-cta{font-size:.8125rem;gap:12px;padding:10px 14px;min-height:44px}.hero-banner>img{height:auto;max-height:none;object-fit:contain}.event-strip-inner{padding-block:20px;gap:18px 16px}.event-strip p{font-size:.9375rem}.strip-label{font-size:.6875rem}.event-strip .button{font-size:.8125rem;gap:10px;padding:12px;min-height:46px;width:100%}.hero{grid-template-columns:minmax(0,1fr);padding-block:30px;gap:20px}.intro-heading h2{font-size:1.9rem}.intro-message{font-size:1rem}.verse,.about,.registration{padding-block:32px}.details{padding-bottom:32px}}
 @media(max-width:420px){.header{gap:10px;padding-block:12px}.header .brand{flex-basis:100%}.header-cta{margin-left:66px}.event-strip-inner{grid-template-columns:minmax(0,1fr) minmax(0,1fr)}.event-strip-inner>p:nth-child(2){grid-column:1/-1;grid-row:2}.event-strip-inner>.button{grid-column:1/-1}.event-strip-inner>p:nth-child(3){grid-column:2;grid-row:1}}
 
+
+/* Approved compact church signatures. */
+.header .brand{gap:10px}.header .brand-mark{width:48px;height:48px}.header .brand strong{font-size:1.125rem;line-height:1.25}.header .brand-city{font-size:.75rem;line-height:1.4;margin-top:4px}.footer .brand{gap:9px}.footer .brand-mark{width:40px;height:40px}.footer .brand strong{font-size:1rem;line-height:1.25}.footer .brand-city{font-size:.75rem;line-height:1.4;margin-top:3px}@media(max-width:420px){.header-cta{margin-left:58px}}
+
